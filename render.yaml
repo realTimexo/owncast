@@ -3,9 +3,7 @@ services:
     name: owncast
     env: docker
     plan: free
-    repo: https://github.com/realTimexo/owncast/
+    repo: realTimexo/owncast
     dockerfilePath: ./Dockerfile
     region: frankfurt
-    envVars:
-      - key: OWNCAST_RTMP_PORT
-        value: "1935"
+    autoDeploy: false
