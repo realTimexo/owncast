@@ -3,7 +3,7 @@ services:
     name: owncast
     env: docker
     plan: free
-    repo: dein-github-name/owncast
+    repo: https://github.com/realTimexo/owncast/
     dockerfilePath: ./Dockerfile
     region: frankfurt
     envVars:
