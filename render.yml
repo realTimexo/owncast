@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: owncast
+    env: docker
+    plan: free
+    repo: dein-github-name/owncast
+    dockerfilePath: ./Dockerfile
+    region: frankfurt
+    envVars:
+      - key: OWNCAST_RTMP_PORT
+        value: "1935"
